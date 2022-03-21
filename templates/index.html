@@ -8,5 +8,18 @@
 </head>
 <body>
     <h1>Bienvenidos a mi primera app en django Siuuuu!!!</h1>
+    <!-- 
+        Cuando pongo la URL el primer nombre (blog), hace referencia a el namespace que esta en el core
+        y despues de : se pone el name que esta en url de blog
+    -->
+    <p>
+        Por favor, has click en el siguiente enlace <a href="{% url 'blog:home' %}">Blog</a><br>
+        Por favor, has click en el siguiente enlace <a href="{% url 'amazon:home' %}">Amazon</a><br>
+        Por favor, has click en el siguiente enlace <a href="{% url 'informacion:home' %}">Infromacion</a>
+    </p>
+    <p>
+      
+    </p>
 </body>
 </html>
+
